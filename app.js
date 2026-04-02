@@ -7,6 +7,8 @@ connectDb();
 const app = express();
 
 app.use(express.json());
-app.use('/auth', auther);
+app.use('/auth', auth);
+
+console.log('heyy there')
 
 module.exports = app;
