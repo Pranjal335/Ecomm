@@ -9,6 +9,6 @@ const app = express();
 app.use(express.json());
 app.use('/auth', auth);
 
-console.log('heyy there')
+console.log('heyy thefdre')
 
 module.exports = app;
